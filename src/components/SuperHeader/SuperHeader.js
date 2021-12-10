@@ -32,6 +32,8 @@ const Wrapper = styled.div`
   align-items: center;
   height: 40px;
   padding: 0px 32px;
+
+  position: relative;
 `;
 
 const MarketingMessage = styled.span`

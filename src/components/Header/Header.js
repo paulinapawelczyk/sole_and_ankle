@@ -31,15 +31,20 @@ const MainHeader = styled.div`
   border-bottom: 1px solid ${COLORS.gray[300]};
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 72px;
   padding-left: 32px;
   padding-right: 32px;
 `;
 
 const Nav = styled.nav`
-  margin-left: 199px;
+  margin: 0 auto;
   display: flex;
   gap: 48px;
+  position: sticky;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 `;
 
 const NavLink = styled.a`
