@@ -50,12 +50,7 @@ const ShoeCard = ({
   );
 };
 
-const Link = styled.a`
-  text-decoration: none;
-  color: inherit;
-  width: 340px;
-  flex: 1 1 auto;
-`;
+const Link = styled.a``;
 
 const Wrapper = styled.article``;
 
